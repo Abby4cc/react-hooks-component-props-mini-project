@@ -1,5 +1,6 @@
-import "@testing-library/jest-dom";
+import React from "react";
 import { render, screen } from "@testing-library/react";
+import '@testing-library/jest-dom'; 
 import Header from "../components/Header";
 
 test("renders a <header> element", () => {
